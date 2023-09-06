@@ -8,10 +8,11 @@
     min-height: 450px;
     margin: 30px auto;
     display: flex;
+    gap: 7px;
 }
 .img-width{
     width: 100px;
-    transition: all 0.6s linear;
+    transition: all 1s;
     /* background-color: blue; */
 }
 .img-width:hover{
@@ -21,6 +22,8 @@
     width: calc(100% / 3);
     position: relative;
     padding: 25px;
+    border-radius: 21px;
+
 }
 .card-width h1{
     color: white;
@@ -64,8 +67,10 @@ background-color: #da7f09;
     background-color: #fff;
     font-size: 18px;
     font-weight: bold;
-    transition: all 0.4s
+    transition: all 0.4s;
+    transform: translateX(19%);
 }
+
 .card-1 button{
  color: #da7f09;
 }
